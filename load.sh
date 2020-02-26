@@ -13,3 +13,6 @@ CPU_LOAD=$(echo "100 * $CPU_LOAD" | bc -l);
 if (( $(echo "$CPU_LOAD >= 150" |bc -l) )); then
 #Do sth
 fi
+
+
+#check new one
